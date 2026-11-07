@@ -1,0 +1,15 @@
+# Віртуальне середовище (ставиться з requirements.txt)
+.venv/
+
+# Результати збирання PyInstaller (близько 300 МБ)
+build/
+dist/
+*.spec
+
+# Кеш Python і pytest
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Журнал самоперевірки збірки
+self_test.log
